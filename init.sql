@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS Crud;
+use Crud;
+DROP TABLE IF EXISTS product;
+CREATE TABLE product(
+product_id INT(11) PRIMARY KEY AUTO_INCREMENT,
+product_name VARCHAR(200),
+product_price INT(11) 
+)ENGINE=INNODB;
